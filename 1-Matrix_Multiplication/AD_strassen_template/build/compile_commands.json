@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/azza/Desktop/Algorithmic Design/AD_strassen_template-master/build",
+  "command": "/usr/bin/c99-gcc   -O3 -DNDEBUG   -o CMakeFiles/strassen_test.dir/main.c.o   -c \"/home/azza/Desktop/Algorithmic Design/AD_strassen_template-master/main.c\"",
+  "file": "/home/azza/Desktop/Algorithmic Design/AD_strassen_template-master/main.c"
+},
+{
+  "directory": "/home/azza/Desktop/Algorithmic Design/AD_strassen_template-master/build",
+  "command": "/usr/bin/c99-gcc   -O3 -DNDEBUG   -o CMakeFiles/strassen_test.dir/matrix.c.o   -c \"/home/azza/Desktop/Algorithmic Design/AD_strassen_template-master/matrix.c\"",
+  "file": "/home/azza/Desktop/Algorithmic Design/AD_strassen_template-master/matrix.c"
+},
+{
+  "directory": "/home/azza/Desktop/Algorithmic Design/AD_strassen_template-master/build",
+  "command": "/usr/bin/c99-gcc   -O3 -DNDEBUG   -o CMakeFiles/strassen_test.dir/strassen.c.o   -c \"/home/azza/Desktop/Algorithmic Design/AD_strassen_template-master/strassen.c\"",
+  "file": "/home/azza/Desktop/Algorithmic Design/AD_strassen_template-master/strassen.c"
+},
+{
+  "directory": "/home/azza/Desktop/Algorithmic Design/AD_strassen_template-master/build",
+  "command": "/usr/bin/c99-gcc   -O3 -DNDEBUG   -o CMakeFiles/strassen_test.dir/test.c.o   -c \"/home/azza/Desktop/Algorithmic Design/AD_strassen_template-master/test.c\"",
+  "file": "/home/azza/Desktop/Algorithmic Design/AD_strassen_template-master/test.c"
+}
+]

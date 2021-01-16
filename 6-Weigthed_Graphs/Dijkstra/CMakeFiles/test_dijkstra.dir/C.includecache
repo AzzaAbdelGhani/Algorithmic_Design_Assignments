@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/azza/Desktop/Algorithmic Design/Algorithmic_Design_course-/Homeworks/6-Weigthed_Graphs/Dijkstra/include/binheap.h
+stdlib.h
+-
+total_orders.h
+-
+
+/home/azza/Desktop/Algorithmic Design/Algorithmic_Design_course-/Homeworks/6-Weigthed_Graphs/Dijkstra/include/dijkstra.h
+queue.h
+/home/azza/Desktop/Algorithmic Design/Algorithmic_Design_course-/Homeworks/6-Weigthed_Graphs/Dijkstra/include/queue.h
+binheap.h
+/home/azza/Desktop/Algorithmic Design/Algorithmic_Design_course-/Homeworks/6-Weigthed_Graphs/Dijkstra/include/binheap.h
+
+/home/azza/Desktop/Algorithmic Design/Algorithmic_Design_course-/Homeworks/6-Weigthed_Graphs/Dijkstra/include/graph.h
+
+/home/azza/Desktop/Algorithmic Design/Algorithmic_Design_course-/Homeworks/6-Weigthed_Graphs/Dijkstra/include/queue.h
+graph.h
+/home/azza/Desktop/Algorithmic Design/Algorithmic_Design_course-/Homeworks/6-Weigthed_Graphs/Dijkstra/include/graph.h
+
+/home/azza/Desktop/Algorithmic Design/Algorithmic_Design_course-/Homeworks/6-Weigthed_Graphs/Dijkstra/src/main.c
+stdlib.h
+/home/azza/Desktop/Algorithmic Design/Algorithmic_Design_course-/Homeworks/6-Weigthed_Graphs/Dijkstra/src/stdlib.h
+stdio.h
+/home/azza/Desktop/Algorithmic Design/Algorithmic_Design_course-/Homeworks/6-Weigthed_Graphs/Dijkstra/src/stdio.h
+time.h
+/home/azza/Desktop/Algorithmic Design/Algorithmic_Design_course-/Homeworks/6-Weigthed_Graphs/Dijkstra/src/time.h
+../include/dijkstra.h
+/home/azza/Desktop/Algorithmic Design/Algorithmic_Design_course-/Homeworks/6-Weigthed_Graphs/Dijkstra/include/dijkstra.h
+
+include/total_orders.h
+

@@ -1,0 +1,9 @@
+# DSSC - Algorithmic Design - Strassen's Algorithm
+
+In this homework we are going to generalize the implementation of Strassen algorithm to deal with sqaure matrices of any dimension and non-square matrices (Rectangular matrices). Then, we are going to improve this algorithm by reducing the memory allocation and test the effects on the execution time.  
+
+In order to generalize the Strassen algorithm, [**Dynamic Peeling**](https://www.researchgate.net/profile/Jeremy_Johnson8/publication/2779622_Implementation_of_Strassen's_Algorithm_for_Matrix_Multiplication/links/004635212d76a7ee76000000/Implementation-of-Strassens-Algorithm-for-Matrix-Multiplication.pdf) method has been used .You can find the generalization of strassen algorithm for any squared matrix in the file [generalized_strassen.c](AD_strassen_template/generalized_strassen.c) and you can find the generalization of strassen algorithm for any non-squared matrix in the file [rectangular_strassen.c](AD_strassen_template/rectangular_strassen.c). 
+
+For developing this algorithm, we can notice that this algorithm consumes much memory in allocating the matrices S and P (we are allocating 17 matrices in each call). This memory consumption is reduced by using C matrix to store the results of 4 P matrices , and 3 matrices are left to be allocated. Furthermore, we are allocating 10 S matrices at the same time, instead we can allocate only one S matrix at once and deallocating it after it has been used. Notice that we need only 2 S matrices to be allocated simultanously , So in total we reduce the number of allocated matrices from 17 to 5. You can find the implementation of this improvement in the file [optimized_strassen.c](AD_strassen_template/optimized_strassen.c) 
+
+Finally, by running `strassen_test` you will be able to see all the results to compare between all these implementations.
